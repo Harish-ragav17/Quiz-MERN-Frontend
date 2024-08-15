@@ -1,0 +1,29 @@
+#header {
+  height: fit-content;
+  padding: 20px;
+  background-color: #041c3b;
+  color: white;
+}
+#header-logo {
+  display: inline;
+  font-size: 18px;
+  font-weight: bolder;
+}
+#header-items {
+  display: inline-flex;
+  float: right;
+  margin-right: 20px;
+  margin-top: -10px;
+  padding: 5px;
+  border-radius: 20px;
+  gap: 20px;
+}
+#header-items :hover {
+  border-bottom: 2px solid rgb(255, 0, 0);
+}
+#header-items a {
+  text-decoration: none;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+
+}

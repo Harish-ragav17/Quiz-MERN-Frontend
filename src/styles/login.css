@@ -1,0 +1,66 @@
+#login-container {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  gap: 1px;
+  color: black;
+  margin-top: 70px;
+  justify-content: space-around;
+}
+.login-common {
+  border-radius: 10px;
+  width: 40%;
+  height: fit-content;
+  background-color: rgb(243, 243, 243);
+  padding: 50px;
+  border: 2px solid black;
+}
+#login-left > form > h3 {
+  text-align: center;
+  font-size: 21px;
+}
+#login-left > form {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+#login-left > form > h3 > a {
+  color: green;
+}
+#login-left > form {
+  padding: 10px;
+  margin: 0 auto;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+#login-left > form > input {
+  font-size: 16px;
+  margin-top: 5px;
+ 
+  padding: 5px;
+  border-top:none;
+  border-left:none;
+  border-right: none;
+  border-bottom: 2px solid green;
+}
+#login-left > form > input[type="submit"] {
+  background-color: rgb(37, 32, 32);
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100px;
+}
+#login-left > form > input[type="submit"]:hover {
+  cursor: pointer;
+}
+#login-right {
+  background-image: url(../img/login.jpg);
+  height: 320px;
+  background-size: contain;
+}
